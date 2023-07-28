@@ -1,0 +1,42 @@
+.vertical {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.vertical ul {
+  list-style: none;
+}
+.vertical ul li {
+  width: 200px;
+  height: 40px;
+
+  background-image: url(./img/menu.png);
+
+  background-repeat: no-repeat;
+  background-position: bottom bottom;
+  background-size: cover;
+  border-bottom: 1px solid rgb(21, 17, 7);
+}
+.vertical ul li a {
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
+.vertical ul li:hover {
+  background-image: url(./img/menu.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+}
+#home .home a,
+#produtos .produtos a,
+#fale-conosco .fale-conosco a,
+#sobre .sobre a {
+  background-image: url(./img/menu.png);
+  background-position: right bottom;
+
+  background-size: cover;
+}
