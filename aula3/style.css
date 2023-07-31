@@ -1,0 +1,30 @@
+.horizontal {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  background-image: url(./img/fundo-horizontal.png);
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+
+.horizontal ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 2em;
+  line-height: 2em;
+  background-image: url(./img/divisor.png);
+  background-repeat: repeat-y;
+  color: aliceblue;
+}
+
+.horizontal ul .primeiro a {
+  background-image: none;
+}
+
+.horizontal ul li a:hover {
+  background-color: aqua;
+  color: black;
+}
