@@ -1,0 +1,45 @@
+.vertical {
+  width: 900px;
+  margin: 10px auto;
+}
+ul li {
+  float: left;
+  display: block;
+  list-style-type: none;
+  background-image: url(./img/aba-direita2.png);
+  background-position: top right;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  background-image: url(./img/aba-esquerda2.png);
+  background-repeat: repeat-y;
+  background-position: top left;
+  font-size: 16px;
+  color: white;
+  padding: 15px;
+}
+ul li:hover,
+#home .home:hover {
+  background-image: url(./img/aba-direita-atual.png);
+  background-position: top right;
+}
+ul li a:hover,
+#home .home a:hover {
+  background-image: url(./img/aba-esquerda-atual.png);
+  background-repeat: repeat-y;
+  background-position: top left;
+}
+
+#home .home,
+#produtos .produtos {
+  background-image: url(./img/aba-direita-atual.png);
+  background-position: top right;
+}
+
+#home .home a,
+#produtos .produtos a {
+  background-image: url(./img/aba-esquerda-atual.png);
+  background-repeat: repeat-y;
+  background-position: top left;
+}
