@@ -6,16 +6,16 @@
 .header {
   width: 740px;
   margin: 0 auto;
-  background-color: gray;
+  background-color: rgb(146, 145, 145);
   text-align: center;
   padding: 15px;
 }
 
 .container {
   width: 740px;
-  height: 300px;
+  height: 390px;
   margin: 0 auto;
-  background-color: rgb(199, 219, 219);
+  background-color: rgb(228, 234, 234);
 }
 
 .conteudo {
@@ -60,4 +60,15 @@
 h1,
 h2 {
   margin: 10px;
+}
+.footer {
+  width: 740px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: gray;
+  padding: 10px;
+}
+.footer p {
+  text-align: center;
+  font-size: 18px;
 }
