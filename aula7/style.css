@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 85%;
+
+  margin: 0 auto;
+  background-color: rgb(242, 249, 249);
+  min-width: 600px;
+}
+
+.header {
+  height: 140px;
+  margin: 0 auto;
+  background-color: rgb(146, 145, 145);
+  text-align: center;
+  line-height: 100px;
+  background-image: url(./img/cabecalho.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.conteudo {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo-principal {
+  width: 64%;
+  padding: 10px;
+}
+
+.conteudo-secundario {
+  width: 30%;
+  padding: 12px;
+  background-color: rgb(210, 209, 209);
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 22%;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(39, 128, 205);
+  font-size: 15px;
+  padding: 20px 3em;
+  background-color: black;
+  border-top: 1px solid green;
+}
+.image {
+  display: block;
+  width: 100%;
+  padding: 2%;
+}
+
+h1,
+h2 {
+  margin: 10px;
+}
+
+.footer {
+  width: 85%;
+  height: 70px;
+  margin: 0 auto;
+  background-color: gray;
+  padding: 10px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.nav ul li:hover {
+  background-position: bottom right;
+}
