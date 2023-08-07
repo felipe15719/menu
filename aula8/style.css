@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.header {
+  width: 900px;
+  height: 250px;
+  border: 1px solid blue;
+  margin: 0 auto;
+  background-image: url(./img/cabecalho.jpg);
+  background-position: center bottom;
+}
+
+.conteudo {
+  width: 700px;
+  float: right;
+}
+
+.primeiro-conteudo {
+  width: 400px;
+  float: left;
+  padding: 10px;
+}
+.primeiro-conteudo p {
+  width: 450px;
+  height: 96px;
+  overflow-y: scroll;
+}
+
+.primeiro-conteudo h1 {
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+.container .natureza {
+  display: inline-block;
+  width: 450px;
+  margin-bottom: 12px;
+}
+
+.segundo-conteudo {
+  width: 195px;
+
+  float: right;
+  padding: 2.8em;
+  background-image: url(./img/coluna.png);
+  background-position: center right;
+}
+.segundo-conteudo p {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.segundo-conteudo h2 {
+  color: darkorange;
+  margin-top: -10px;
+  margin-bottom: 8px;
+}
+.nav {
+  width: 200px;
+  background-image: url(./img/coluna.png);
+  background-position: center right;
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2em;
+  color: darkgoldenrod;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+}

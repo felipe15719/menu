@@ -1,0 +1,35 @@
+table {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px black;
+}
+
+th {
+  width: 400px;
+  font-size: 25px;
+  border-top: 2px solid rgb(134, 133, 133);
+  border-bottom: 2px solid rgb(42, 39, 39);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px;
+  text-shadow: 1px 1px 1px rgb(5, 32, 138);
+}
+
+td {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.gray {
+  background-color: rgb(243, 243, 243);
+}
+
+tr:hover {
+  background-color: rgb(137, 230, 230);
+}
